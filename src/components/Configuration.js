@@ -180,7 +180,7 @@ export default function Configuration() {
                         </div>
 
                         <div className="bg-black/[.02] dark:bg-white/[.02] p-4 rounded-lg">
-                            <label className="block text-sm mb-1">Pam's Phone Number</label>
+                            <label className="block text-sm mb-1">Pam&apos;s Phone Number</label>
                             <input
                                 type="text"
                                 value={config?.PAM_PHONE_NUMBER || ''}
