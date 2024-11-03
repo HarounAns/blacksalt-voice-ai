@@ -6,6 +6,7 @@ import Navigation from '@/components/Navigation';
 import Layout from '@/components/Layout';
 import Configuration from '../components/Configuration';
 import FAQManagement from '../components/FAQManagement';
+import CallLogs from '@/components/CallLogs';
 
 const API_URL = 'https://7al3ohcnml.execute-api.us-east-1.amazonaws.com';
 const APP_TITLE = 'BlackSalt Voice AI';
@@ -70,7 +71,7 @@ export default function Home() {
 
   const contentMap = {
     config: <Configuration />,
-    calls: <div>Call Logs Content</div>,
+    calls: <CallLogs />,
     faq: <FAQManagement />,
   };
 
